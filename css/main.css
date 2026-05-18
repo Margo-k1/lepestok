@@ -1,118 +1,232 @@
 body {
     font-family: "Marck Script", cursive;
-	font-size: 28px;
-	line-height: 38 px;
+    font-size: 28px;
+    line-height: 38 px;
 }
 .h2, h2 {
-	font-weight: 700;
-	font-size:35px ;
-	line-height: 38 px;
+    font-weight: 700;
+    font-size:35px ;
+    line-height: 38 px;
 }
 header, footer {
-	position: relative;
+    position: relative;
 }
 header ul {
-	margin: 0;
-	padding: 0;
-	
+    margin: 0;
+    padding: 0;
+    
 }
 header ul li {
-	display: inline-block;
-	padding: 15px 15px ;
-	font-weight: 400 ;
-	font-size: 35px ;
-	line-height: 38px ;
+    display: inline-block;
+    padding: 15px 15px ;
+    font-weight: 400 ;
+    font-size: 35px ;
+    line-height: 38px ;
 }
 header a {
-	color: #000000;
+    color: #000000;
 }
 header a:hover {
-	color: #000000;
-	text-decoration: none;
+    color: #000000;
+    text-decoration: none;
 }
 header .phone {
-	font-weight: 400 ;
-	font-size: 35px ;
-	line-height: 38px ;
+    font-weight: 400 ;
+    font-size: 35px ;
+    line-height: 38px ;
 
     color: #000000;
 }
 header .wrap_phone {
-	display:flex ;
-	align-items: center ;
+    display:flex ;
+    align-items: center ;
 }
 
 header .header-img {
     margin-top: 61px;	
-	margin-bottom: 61px;
+    margin-bottom: 61px;
 }
 main .bg-yellow, main .bg-green {
-	position: relative ;
+    position: relative ;
 }
 
 .border_img {
-	background-image: url(../images/border.png);
-	height: 150px;
-	background-position: center;
-	width: 100&;
-	z-index: 1000 ;
+    background-image: url(../images/border.png);
+    height: 150px;
+    background-position: center;
+    width: 100&;
+    z-index: 1000 ;
 }
 
 .bg-light {
     background-color: #FAF9F4 !important;
-	color: #000000 !important;
+    color: #000000 !important;
 }
 .bg-yellow {
     background-color: #FBFAE2 !important;
-	color: #000000 !important;
+    color: #000000 !important;
 }
 .bg-green {
     background-color: #ECF3E1 !important;
-	color: #000000 !important;
+    color: #000000 !important;
 }
 
 .btn_my_yellow {
-background:#FBFAE2;
-border-radius: 72px;
-display:inline-block;
-padding: 20px 30px;
-color: #000000 ;
-font-weight: 700 ;
-text-transform: uppercase;
+    background:#FBFAE2;
+    border-radius: 72px;
+    display:inline-block;
+    padding: 20px 30px;
+    color: #000000 ;
+    font-weight: 700 ;
+    text-transform: uppercase;
 }
 .btn_my_yellow:hover {
-color: #000000 ;
-text-decoration: none;
+    color: #000000 ;
+    text-decoration: none;
 }
 
 .btn_my_green {
-background:#ECF3E1;
-border-radius: 72px;
-display:inline-block;
-padding: 20px 30px;
-color: #000000 ;
-font-weight: 700 ;
-text-transform: uppercase;
+    background:#ECF3E1;
+    border-radius: 72px;
+    display:inline-block;
+    padding: 20px 30px;
+    color: #000000 ;
+    font-weight: 700 ;
+    text-transform: uppercase;
 }
 .btn_my_green:hover {
-color: #000000 ;
-text-decoration: none;
+    color: #000000 ;
+    text-decoration: none;
 }
 
 .footer_text {
     font-weight: 400 ;
-	font-size: 28px;
-	line-height: 38 px;
+    font-size: 28px;
+    line-height: 38 px;
 }
 
-footer .wrape_phone {
+footer .wrap_phone {
     display: flex ;
-	align-items: center ;
+    align-items: center ;
 }
 
 footer .phone {
-	color: #000000 ;
+    color: #000000 ;
     font-weight: 700 ;
-	font-size: 35px;
-	line-height: 38 px;
+    font-size: 35px;
+    line-height: 38 px;
+}
+
+.student-info {
+    background-color: #fff9e6;
+    border-radius: 20px;
+    padding: 20px 30px;
+    margin: 20px auto;
+    border-left: 8px solid #6b8c42;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.student-info p {
+    margin: 5px 0;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #333;
+}
+
+.student-info .student-name {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #4a6e2e;
+}
+
+.captcha-container {
+    display: flex;
+    justify-content: center;
+    margin: 25px 0 20px;
+    transform: scale(0.95);
+}
+
+.btn-submit-captcha {
+    background: #6b8c42;
+    border: none;
+    border-radius: 50px;
+    padding: 12px 35px;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    transition: 0.3s;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.btn-submit-captcha:hover {
+    background: #557a30;
+    text-decoration: none;
+    color: white;
+}
+
+.captcha-message {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 0.9rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.contact-card {
+    border-radius: 30px;
+    background-color: #ffffff;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+}
+
+.contact-card h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.contact-card .form-control {
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 50px;
+    border: 1px solid #ddd;
+    padding: 12px 20px;
+}
+
+.contact-card .form-control:focus {
+    border-color: #6b8c42;
+    box-shadow: 0 0 0 0.2rem rgba(107,140,66,0.25);
+}
+
+.contact-card textarea.form-control {
+    border-radius: 20px;
+}
+
+@media (max-width: 768px) {
+    .student-info {
+        padding: 15px;
+        margin: 15px;
+    }
+    
+    .captcha-container {
+        transform: scale(0.85);
+    }
+    
+    .btn-submit-captcha {
+        padding: 10px 25px;
+        font-size: 0.9rem;
+    }
+    
+    .student-info p {
+        font-size: 0.85rem;
+    }
+    
+    .student-info .student-name {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .captcha-container {
+        transform: scale(0.75);
+    }
 }
