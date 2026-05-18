@@ -158,11 +158,9 @@ footer .phone {
 }
 
 .student-info {
-    background-color: #fff9e6;
     border-radius: 20px;
     padding: 20px 30px;
     margin: 20px auto;
-    border-left: 8px solid #6b8c42;
     box-shadow: 0 5px 15px rgba(0,0,0,0.05);
     font-family: 'Montserrat', sans-serif;
     text-align: center;
